@@ -42,9 +42,7 @@ public class Switch_Statement2 {
 			break;
 		default :		 // 4, 6, 9, 11
 			System.out.printf("해당 월은 %d월이고, %d일까지 존재합니다.\n\n",month,day );
-			
-		
-		
+			// default는 break; 있어도 되고 없어도 된다.
 		
 		}
 		
