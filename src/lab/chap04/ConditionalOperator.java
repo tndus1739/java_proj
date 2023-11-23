@@ -17,7 +17,7 @@ public class ConditionalOperator {
 		
 		// 1. 스캐너 장착
 		
-		
+		Scanner sc = new Scanner(System.in);
 		
 		// 2. 인풋 받을 변수 선언 : 정수
 		

@@ -26,7 +26,7 @@ public class ConsoleOutput1 {
 		
 			// printf() ; 출력
 	System.out.printf("우리 아버님 이름은 %s이고, 우리 어머님 이름은 %s 입니다. \n",fatherName, motherName);
-	System.out.printf("나의 이름은 %s이고, 나이는 %d살이고, 몸무게는 %4.1ㄴㅊf 킬로 입니다.", myName, age, weith1 );
+	System.out.printf("나의 이름은 %s이고, 나이는 %d살이고, 몸무게는 %4.1f 킬로 입니다.", myName, age, weith1 );
 	
 		
 	}
