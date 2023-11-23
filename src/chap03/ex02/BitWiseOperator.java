@@ -24,7 +24,7 @@ public class BitWiseOperator {
 		// 문자열로된 숫자를 정수 타입으로 변환 (★★★ 중요하고 많이 사용)
 		System.out.println( "3"+"5");		//숫자로 되어있지만 문자열 ( 문자열 + 문자열 = 문자열 연결)  //35
 		
-		// Integer.parseInt("숫자(정수만 OK)-실수는 X"); -> 정수 타입으로 저장됨 ★★★★★
+		// Integer.parseInt("숫자(정수만 OK)-실수는 X"); -> 정수 타입으로 저장됨 ★★★★★★★★
 		System.out.println(Integer.parseInt("3")+ Integer.parseInt("5"));		//8
 		
 		// 문자열로된 실수를 실수 타입으로 변환 -> 실수 타입으로 저장 (★★★ 중요하고 많이 사용)

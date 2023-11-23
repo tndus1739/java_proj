@@ -1,4 +1,4 @@
-package lab;
+package lab.chap01;
 
 public class ConsoleOutput1 {
 	

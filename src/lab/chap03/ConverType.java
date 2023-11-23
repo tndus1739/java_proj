@@ -36,6 +36,8 @@ public class ConverType {
 //		eng = sc.nextInt();
 //		math = sc.nextInt();
 //		
+// 		hap = Integer.parseInt(kor + eng + math); -> kor = sc.next();(문자)니까 출력하면 다 붙어서 나옴
+		
 		
 		hap = Integer.parseInt(kor)+ Integer.parseInt(eng) + Integer.parseInt(math) ;
 		avg = hap / 3.0 ;
