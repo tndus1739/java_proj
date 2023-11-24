@@ -49,6 +49,12 @@ public class LogicalOperator {
 		}else {
 			System.out.println( "범위를 벗어났습니다. 다시 입력해주세요 ");
 		}
+		
 	}
+	
+	
+	
+	
+	
 
 }
