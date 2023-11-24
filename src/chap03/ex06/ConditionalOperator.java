@@ -25,13 +25,7 @@ public class ConditionalOperator {
 			
 		System.out.println(val2);
 		
-		
-		
-		
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		
+
 		
 		
 		
