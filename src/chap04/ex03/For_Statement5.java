@@ -15,26 +15,16 @@ public class For_Statement5 {
 		// continue ;
 		for ( int i = 1 ; i < 10 ; i++) {
 			
+			System.out.println("i변수의 값 : " + i);
+			
 			if ( i % 3 == 0) {			// 3의 배수일 때 true
 				continue;				//continue를 만나면 아래코드를 실행하지 않고 증감식으로 이동.
 										//continue는 보통 구문을 실행하지 않기위해 넣는 긋이라서 구문앞에 넣는다. (구문 뒤에 넣으면 의미가 없음)
 			
 			}
-			System.out.println("i변수의 값 : " + i);
 			
-		}
-		
-		
-		System.out.println("============================");
-		
-		
-		// continue ;
-		for ( int i = 1 ; i < 10 ; i++) {
-							
-			if ( i % 3 == 0) {			
-				continue;				
-			}
-			System.out.println("369의 배수에서는 출력안됨");   // 커밋 확인
+			
+			System.out.println("369의 배수에서는 출력 안됨 " );
 			System.out.println();
 		}
 		
@@ -42,13 +32,15 @@ public class For_Statement5 {
 		System.out.println("============================");
 		
 		
+		
+		
 		// break ;
 		for ( int i = 1 ; i < 10 ; i++) {
-					
+			System.out.println("i변수의 값 출력: " + i);		
 			if ( i % 3 == 0) {			
 				break;				
 			}
-			System.out.println("i변수의 값 출력: " + i);
+		
 					
 		}
 				
