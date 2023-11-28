@@ -57,7 +57,7 @@ public class Ractangle_Array2 {
 						if(a % 3 != 0) {				//  3의 배수가 아닐 때
 														// 홀수이면서 3의 배수가 아닐 때 실행블락
 					arr[i][j] = a;						// j가 그냥 늘어나는게 아니라 a의 값이 홀수이면서 3의 배수가 아닐 때 j(방번호)가 늘어난다.
-					j++;
+					j++;								// j++를 안쓴다면 for이 계속 true가 되어서 무한루프
 					
 				}
 				
@@ -120,6 +120,7 @@ public class Ractangle_Array2 {
 		for ( int[] a : arr) {
 			System.out.println(Arrays.toString(a));
 		
+			
 		}
 		
 		System.out.println("=============Enhanced for문으로 출력 2 ===============");
