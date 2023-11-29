@@ -99,6 +99,12 @@ public class Object_Definition {
 	
 	Animal an5 = new Animal("토끼", "흰색", 4, 50, "울음소리");
 	an5.printAll();
+	System.out.println("다리개수 + 스피드 : " + an5.plus(4, 50));
+	
+	System.out.println("=====================");
+
+	
+	
 	
 	}
     

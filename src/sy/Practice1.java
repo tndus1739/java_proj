@@ -42,24 +42,22 @@ public class Practice1 {
 			}
 			System.out.println();
 		} 
-			else if (i == 1 )
-			{
+			else if (i == 1 ){
 			int a = 1 ;
-			for ( int j = 0 ; j < arr[i].length ; a++ ) 
-			{
-				if( a % 2 == 0) 
-				{
-					if (a % 3 != 0) 
-					{
+			for ( int j = 0 ; j < arr[i].length ; a++ ) {
+				if( a % 2 == 0) {
+					if (a % 3 != 0) {
 					arr[i][j] = a;
 					
-					System.out.print(arr[i][j]+ "\t");
-					
+					System.out.print(arr[i][j]+ "\t");    // J방번호가 빠져서 출력돼어서 이상하게 출력
 					j++;
 				
 					}
 					
 				}
+				
+
+				
 				
 			}
 			System.out.println();	
