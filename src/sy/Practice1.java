@@ -38,7 +38,7 @@ public class Practice1 {
 			{
 			arr[i][j] = a ;
 			a++;
-			//System.out.print(arr[i][j]+ "\t");
+			System.out.print(arr[i][j]+ "\t");
 			}
 			System.out.println();
 		} 
@@ -52,18 +52,28 @@ public class Practice1 {
 					if (a % 3 != 0) 
 					{
 					arr[i][j] = a;
-					System.out.println(arr[i][j]+ "\t");
-					j++;	
+					
+					System.out.print(arr[i][j]+ "\t");
+					
+					j++;
+				
 					}
+					
 				}
-				//System.out.println(arr[i][j]);
+				
 			}
+			System.out.println();	
+			
 		} else if (i == 2 ){
 			int a = 1;
 			for ( int j = 0 ; j < arr[i].length ; a++) {
 			 if ( a % 7 == 0 ||  a % 8 == 0)	{
 				arr[i][j] = a;
+				
+				System.out.print(arr[i][j]+ "\t");
+				
 				j++;
+				
 			 }
 			}
 			
