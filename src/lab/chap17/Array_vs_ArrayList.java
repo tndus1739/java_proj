@@ -79,7 +79,7 @@ public class Array_vs_ArrayList {
 		}
 		
 		System.out.println();
-		System.out.println(aList);
+		System.out.println(aList);							// 배열의 Arrats.toString처럼 한 줄로 보여준다.
 	}
 
 }

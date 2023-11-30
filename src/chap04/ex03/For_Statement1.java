@@ -1,6 +1,6 @@
 package chap04.ex03;
 
-public class For_Statement {
+public class For_Statement1 {
 
 	public static void main(String[] args) {
 /*		

@@ -1,6 +1,6 @@
 package lab.chap04;
 
-public class For_Satement2 {
+public class For_Statement2 {
 
 	public static void main(String[] args) {
 		/*

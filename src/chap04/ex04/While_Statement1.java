@@ -1,6 +1,6 @@
 package chap04.ex04;
 
-public class While_Statement {
+public class While_Statement1 {
 
 	public static void main(String[] args) {
  

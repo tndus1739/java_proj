@@ -2,7 +2,7 @@ package chap03.ex02;
 
 import java.util.Scanner;
 
-public class BitWiseOperator {
+public class BitWiseOperator1 {
 
 	public static void main(String[] args) {
 

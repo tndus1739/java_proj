@@ -2,7 +2,7 @@ package chap05.ex08;
 
 import java.util.Arrays;
 
-public class NonRactangle_Array {
+public class NonRectangle_Array {
 
 	public static void main(String[] args) {
 

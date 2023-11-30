@@ -2,7 +2,7 @@ package lab.chap05;
 
 import java.util.Arrays;
 
-public class Arrat_Definition4 {
+public class Array_Definition4 {
 
 	public static void main(String[] args) {
 

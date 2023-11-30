@@ -1,6 +1,6 @@
 package lab.chap05;
 
-public class Array_Definition {
+public class Array_Definition1 {
 
 	public static void main(String[] args) {
 

@@ -2,7 +2,7 @@ package lab.chap05;
 
 import java.util.Arrays;
 
-public class Ractangle_Array2 {
+public class Rectangle_Array2 {
 
 	public static void main(String[] args) {
 
