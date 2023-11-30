@@ -28,7 +28,9 @@ public class Method {
 //	    	}	
 // 방법 2	    	
 	    	for ( int i = 0 ; i < aList.size() ; i++) {	
+	    		
 	    		Student s = aList.get(i);
+	    		
 	    		System.out.println(s);
 	    		
 	    	}
@@ -60,6 +62,16 @@ public class Method {
 	    	}
 	    }
 	    
+	 // List<Student> 객체를 받아서 객체를 끄집어 내서 메소드 호출 hapAvg()
 	    
-	    
+	    void all (List<Student> aList) {
+	    	for ( int i = 0 ; i < aList.size() ; i++) {
+	    		Student s = aList.get(i);
+	    		s.hapAvg();
+	    	}
+	    }
+	    void sMethod (Student s) {
+	    	s.hapAvg();
+	    }
+
 }

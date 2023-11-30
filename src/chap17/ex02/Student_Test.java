@@ -50,6 +50,15 @@ public class Student_Test {
 		
 		m.nameAddr(aList);
 		
+		aList.add(new Student("이순신", 55,66,77));                        //   student 객체가 이어서 들어간다.
+		aList.add(new Student("김순신", 59,56,87));   
+		aList.add(new Student("홍순신", 55,96,57));   
+		
+		m.all(aList);
+		
+		System.out.println("=========================");
+		
+		m.sMethod (new Student("박순신", 77,89,100));
 		
 		
 	}

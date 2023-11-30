@@ -31,7 +31,11 @@ public class Student {
 		Student(String name , String addr , int num) {
 			this.name = name ;   this.addr = addr ;   this.num = num ;
 		}
-
+		//
+		
+		Student ( String name, int kor, int eng, int math) {
+			this.name =name ;  this.kor = kor ; this.eng = eng ; this.math = math;
+		}
 		// 생성자 오버로딩 ( 생성자도 메소드)
 		// 메소드 오버로딩 (Overloading) : 메소드 이름(여러개의 Student)이 동일 , 시그니쳐(String, int ...)에 따라서 해당 메소드 호출
 			// 식별자 ( 시그니쳐) : 인풋개수, 인풋자료형
@@ -44,6 +48,16 @@ public class Student {
 		// 3. 메소드 : 프로그램의 기능 처리 , 입력한 것을 출력해줌
 		
 		
+		
+		// 메소드 : kor , eng , math 점수를 합계와 평균을 구해서 출력 메소드
+		
+		public void hapAvg() {                      // 다른 패키지에서 하려면 앞에 public 입력
+			int hap = 0;
+			hap = kor + eng + math;
+		    double avg = hap / 3.0 ;
+		    
+		    System.out.println( name + " 님의 점수의 합계는 " + hap + "이고, 평균은 : " + avg );    //메소드를 호출하면 저장되어있는 필드를 호출
+		}
 		
 		public String getName() {                    // get : 필드 안의 값을
 			return name;
