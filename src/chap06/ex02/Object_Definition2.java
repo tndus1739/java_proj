@@ -1,6 +1,8 @@
 package chap06.ex02;
 
 // 외부 클래스 : public class는 하나만 올 수 있다.
+// 외부클래스에 올 수 있는 것 : 패키지, import 
+
 
 class Student {			// 클래스는 설계도 (껍데기)일 뿐 객체화(인스턴스화) 해서 사용해야 한다.  객체 : RAM 
 

@@ -89,7 +89,7 @@ public class Inheritance01 {
 	    Student s3 = new Student(9999);  // 9999 -> studentId
 	    
 	    // 1. Student(9999) 생성자 호출   
-	    // 2. Human의 super("김김김, 20); 호출함 ( 호출만 함)
+	    // 2. Human의 super("김똘똘, 20); 호출함 ( 호출만 함)
 	    // 3. Object가 생성 -> Human 생성 -> Student 생성	
 	    
 	    System.out.println(s3.name);

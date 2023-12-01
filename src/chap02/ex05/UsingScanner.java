@@ -21,7 +21,7 @@ public class UsingScanner {
 		/*Scanner : 콘솔로부터 입력 값을 받아오는 클래스 (객체)
 	    		  - 외부 클래스 : java.lang 외부에 존재하는 클래스 -> import가 필요함
 	    		  - 동일한 패키지에 존재하는 클래스는 import 없이 사용가능
-	    		  - 동일한 패키지에 존재하지 않는 클래스는 import를 해야 사용가능
+	    		  - 동일한 패키지에 존재하지 않는 클래스는 import 를 해야 사용가능
 	    		  - java.util.Scanner : 클래스의 전체이름 ->  패키지명.클래스명
 	    		  - ctrl + shift + o : 자동으로 import (커서위치는 상관 없음)
 	    		  - 콘솔에서 값을 넣고 enter키 나 space키를 누르면 다음 스캐너에서 입력 대기
