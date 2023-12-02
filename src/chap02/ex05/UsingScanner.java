@@ -67,5 +67,18 @@ public class UsingScanner {
 	     
 	    System.out.println("aa : " + aa + "\nbb : " + bb + "\ncc : " + cc);  // 스캐널 실행하면 홍길동 부터 다시 시작
 	    
+	    System.out.println("WishList를 작성하세요.(4가지)");
+	    
+	    String aaa;
+	    String bbb;
+	    String ccc;
+	    String ddd;
+	    
+	    aaa = sc.next();
+	    bbb = sc.next();
+	    ccc = sc.next();
+	    ddd = sc.next();
+	    System.out.println("wishList : " + aaa + " , " + bbb + " , " + ccc + " , " + ddd);
+	    
 	}
 }

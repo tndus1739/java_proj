@@ -15,6 +15,7 @@ public class TypeCasting2 {
 		// 평균 : (kor + eng + math) / 3
 		System.out.println(" 캐스팅하지 않는 평균 : " + (kor + eng + math) / 3 );
 		System.out.println(" 평균 : " + ((double)(kor + eng + math)) / 3 );
+		System.out.println(" 평균 : " + ((double)(kor + eng + math)) / 3 );
 		
 		System.out.println("========================");
 		

@@ -34,7 +34,9 @@ public class BitWiseOperator1 {
 		
 		System.out.println(Double.parseDouble("13.5") + Double.parseDouble("17.77"));    //31.27
 		
+		System.out.println("==============================");
 		
+		System.out.println(Integer.parseInt("100") + Integer.parseInt("10"));
 		
 		System.out.println("==============================");
 		

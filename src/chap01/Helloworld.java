@@ -9,7 +9,16 @@ public class Helloworld {	// 클래스 블락
 		/*
 		    여러줄 주석
 		 */
-		
+		// ctrl + shift + L 단축키 전체 목록
+
+		System.out.println("Hello World");
+		System.out.println("Hello World");
+		System.out.println("Hello World");
+		System.out.println("Hello World");
+		System.out.println("Hello World");
+		System.out.println("Hello World");
+		System.out.println("Hello World");
+		System.out.println("Hello World");
 		System.out.println("Hello World");
 		//객체명 (클래스명). 메소드
 	} 

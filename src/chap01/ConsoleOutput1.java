@@ -141,6 +141,6 @@ public class ConsoleOutput1 {	// 클래스 블락 (클래스의 첫글자는 반
 		
 	}
 	
-	// System.out.println("Helloworld"); -> 오류발생
+//  	System.out.println("Hello world") ; -> 오류발생  // 메인 메소드 내부에서 코드를 작성해야함 (외부에서 작성하면 오류)
 		
 }
